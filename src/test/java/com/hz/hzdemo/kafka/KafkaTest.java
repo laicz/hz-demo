@@ -38,7 +38,6 @@ public class KafkaTest {
     @Autowired
     private AdminClient adminClient;
 
-
     @Test
     public void sendDataAndCreateTopic() throws InterruptedException {
         String topic = "kafka.test.send_data_create_topic";
