@@ -66,4 +66,10 @@ public class KafkaTest {
         ListenableFuture this_is_value = kafkaTemplate.send(topic, "this is value");
         Thread.sleep(100000000L);
     }
+
+    @Test
+    public void github() {
+        System.out.print("这是一段Github上创建的代码");
+    }
 }
+
